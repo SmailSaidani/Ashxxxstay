@@ -1,6 +1,6 @@
 from random import *
 from pygame import *
-
+print("Hail to the king")
 class GameSprite(sprite.Sprite):
     # class constructor
     def __init__(self, player_image, player_x, player_y, size_x, size_y, player_speed):
